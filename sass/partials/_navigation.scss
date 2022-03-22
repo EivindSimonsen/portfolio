@@ -1,0 +1,78 @@
+// Navigation
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .about {
+  padding-top: 155px;
+}
+
+.navbar {
+  margin-bottom: 50px;
+  @include cta-shadow;
+  z-index: 1000;
+  background-color: $link-color;
+
+  & > .container-fluid {
+    justify-content: end;
+  }
+
+  &-nav {
+    margin: 0px auto;
+    align-items: center;
+  }
+
+  &-toggler {
+    background-color: $link-color;
+    margin: 10px;
+    border: 1px solid $secondary-color;
+
+    &-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.fa-bars {
+  color: $secondary-color;
+  font-size: 1.6rem;
+}
+
+.nav-item {
+  & > a {
+    font-size: 1.6rem;
+    color: $text-color;
+    margin: 15px;
+  }
+
+  & > a:hover {
+    color: $secondary-color;
+  }
+}
+
+.active {
+  text-decoration: underline;
+  color: $secondary-color !important;
+}
+
+// Footer
+
+footer {
+  background-color: $primary-color;
+  padding: 80px;
+}
+
+#socials a {
+  color: $link-color;
+  font-size: 1.7rem;
+  margin: 0px 100px;
+
+  &:hover {
+    color: $text-color;
+  }
+}
