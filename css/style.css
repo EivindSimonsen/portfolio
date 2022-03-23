@@ -441,11 +441,16 @@ header p {
 .projects {
   background-color: #f2f2f2;
   padding: 60px 0px;
-  height: 100vh;
 }
 
 .projects > .section-heading {
   padding: 50px;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    height: 100vh;
+  }
 }
 
 .projects__container {
