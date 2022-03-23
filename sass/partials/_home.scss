@@ -8,7 +8,7 @@ header {
 
   & h1,
   & p {
-    color: $link-color;
+    color: $background-color;
   }
 }
 
@@ -37,6 +37,10 @@ header {
     @include text-shadow;
     @media (min-width: $tablet) {
       font-size: 2rem;
+    }
+
+    & span {
+      font-size: 2.4rem;
     }
   }
 

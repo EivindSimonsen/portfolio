@@ -85,9 +85,6 @@ h5,
   z-index: 1000;
   background-color: #ffffff;
   padding: 0px;
-  /* & > .container-fluid {
-    justify-content: end;
-  } */
 }
 
 .navbar-nav {
@@ -165,7 +162,7 @@ header {
 
 header h1,
 header p {
-  color: #ffffff;
+  color: #f2f2f2;
 }
 
 .home {
@@ -210,6 +207,10 @@ header p {
   .home__intro {
     font-size: 2rem;
   }
+}
+
+.home__intro span {
+  font-size: 2.4rem;
 }
 
 .home__snippet {
