@@ -35,6 +35,7 @@
       </section>
     </header>
     <main>
+      <!-- Navigation -->
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,6 +61,7 @@
           </div>
         </div>
       </nav>
+      <!-- About section -->
       <section class="about" id="about">
         <div class="section-heading extra-padding-about-h2">
           <h2>About</h2>
@@ -74,6 +76,7 @@
             <p>My passion is creating good looking websites with dynamic and detailed features. I love the feeling of making things work!</p>
           </div>
         </div>
+        <!-- Attributes section -->
         <div class="attributes">
           <div class="hexagon">
             <i class="fas fa-desktop"></i>
@@ -105,6 +108,7 @@
             </div>
           </div>
         </div>
+        <!-- Skillset section -->
         <div class="skillset container row">
           <div class="skillset__container col-sm-12 col-md-6 col-lg-4">
             <h4>HTML</h4>
@@ -132,31 +136,158 @@
           </div>
         </div>
       </section>
+      <!-- Project section -->
       <section class="projects" id="projects">
         <div class="section-heading">
           <h2>Projects</h2>
         </div>
         <div class="projects__container container row">
+          <!-- Project one -->
           <div class="col-lg-4 col-sm-12 col-md-6">
-            <img src="img/Capture.JPG" alt="Sims & Kryl website" />
+            <button type="button" class="modal-btn" data-bs-toggle="modal" data-bs-target="#modal-one">
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <img src="img/Capture.JPG" alt="Sims & Kryl website" />
+              </div>
+            </button>
+            <div class="modal fade" id="modal-one" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <img src="img/Capture.JPG" alt="Sims & Kryl website" />
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Sims & Kryl - Blog website</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">This website was a school project were we was tasked to create a blog post website. This website uses wordpress rest API to retrieve posts created in wordpress.</div>
+                  <div class="modal-footer">
+                    <a class="nav-link cta" href="https://simsandkrylportfolio.netlify.app/">Website</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <!-- Project two -->
           <div class="col-lg-4 col-sm-12 col-md-6">
-            <img src="img/Capture2.JPG" alt="Guitar kings website" />
+            <button type="button" class="modal-btn" data-bs-toggle="modal" data-bs-target="#modal-two">
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <img src="img/Capture2.JPG" alt="Guitar kings website" />
+              </div>
+            </button>
+            <div class="modal fade" id="modal-two" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <img src="img/Capture2.JPG" alt="Sims & Kryl website" />
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Guitar Kings - E-commerce website of guitars</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">This project was my first complete website. It only takes use of HTML and CSS, and was only meant for taking those languages into practice.</div>
+                  <div class="modal-footer">
+                    <a class="nav-link cta" href="https://silly-golick-a22c03.netlify.app/">Website</a>
+                    <a class="nav-link cta" href="https://github.com/EivindSimonsen/guitarkings">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <!-- Project three -->
           <div class="col-lg-4 col-sm-12 col-md-6">
-            <img src="img/Capture3.JPG" alt="Vermint gallery website" />
+            <button type="button" class="modal-btn" data-bs-toggle="modal" data-bs-target="#modal-three">
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <img src="img/Capture3.JPG" alt="Vermint gallery website" />
+              </div>
+            </button>
+            <div class="modal fade" id="modal-three" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <img src="img/Capture3.JPG" alt="Sims & Kryl website" />
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Vermint Gallery - E-commerce for paintings</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">This is a project I did for my brother. He paints and want to sell. It takes use of HTML, CSS and javascript. For this project i created a wordpress rest API, so that my brother could add his products in wordpress without having to change the source code.</div>
+                  <div class="modal-footer">
+                    <a class="nav-link cta" href="https://vermintgallery.netlify.app/">Website</a>
+                    <a class="nav-link cta" href="https://github.com/EivindSimonsen/vermint-gallery">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <!-- Project four -->
           <div class="col-lg-4 col-sm-12 col-md-6">
-            <img src="img/Capture4.JPG" alt="Museum website" />
+            <button type="button" class="modal-btn" data-bs-toggle="modal" data-bs-target="#modal-four">
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <img src="img/Capture4.JPG" alt="Museum website" />
+              </div>
+            </button>
+            <div class="modal fade" id="modal-four" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <img src="img/Capture4.JPG" alt="Sims & Kryl website" />
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Community Science Musem - Semester project</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">For the semester project, i was tasked in creating a website for a fictional musem. I was to represent a website for all ages, and create interest for potential visitors.</div>
+                  <div class="modal-footer">
+                    <a class="nav-link cta" href="https://escommunitysciencemuseum.netlify.app/">Website</a>
+                    <a class="nav-link cta" href="https://github.com/EivindSimonsen/semester-project">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <!-- Project five -->
           <div class="col-lg-4 col-sm-12 col-md-6">
-            <img src="img/Capture5.JPG" alt="Decor website" />
+            <button type="button" class="modal-btn" data-bs-toggle="modal" data-bs-target="#modal-five">
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <img src="img/Capture5.JPG" alt="Decor website" />
+              </div>
+            </button>
+            <div class="modal fade" id="modal-five" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <img src="img/Capture5.JPG" alt="Sims & Kryl website" />
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Home decor - My first bootstrap project</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">This is my first use of bootstrap in a project. First time also using background patterns. The images are taken and edited in photoshop by me.</div>
+                  <div class="modal-footer">
+                    <a class="nav-link cta" href="https://musing-khorana-fbed8a.netlify.app/">Website</a>
+                    <a class="nav-link cta" href="https://github.com/EivindSimonsen/home-decor">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+          <!-- Project six -->
           <div class="col-lg-4 col-sm-12 col-md-6">
-            <img src="img/Capture7.JPG" alt="E-commerce website for shoes" />
+            <button type="button" class="modal-btn" data-bs-toggle="modal" data-bs-target="#modal-six">
+              <div class="col-lg-4 col-sm-12 col-md-6">
+                <img src="img/Capture7.JPG" alt="E-commerce website for shoes" />
+              </div>
+            </button>
+            <div class="modal fade" id="modal-six" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <img src="img/Capture7.JPG" alt="Sims & Kryl website" />
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Running Man - E-commerce for shoes</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">This was my semester project the second year of school, and we were tasked in creating an e-commerce for shoes. The website is taking use of STRAPI.IO, which I use to upload images, and making it possible to log in and out. I also take use of POST/GET/PUT and DELETE requests for an eventual user to create and add products by themselves.</div>
+                  <div class="modal-body">The website only works on local server.</div>
+                  <div class="modal-footer">
+                    <a class="nav-link cta" href="https://github.com/EivindSimonsen/semester-project-2">GitHub</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
+      <!-- Contact section -->
       <section class="contact" id="contact">
         <div class="section-heading">
           <h2>Contact</h2>
@@ -178,10 +309,10 @@
     <footer>
       <ul class="nav justify-content-center">
         <li class="nav-item" id="socials">
-          <a class="nav-link" href="#"><i class="fab fa-linkedin"></i></a>
+          <a class="nav-link" href="https://www.linkedin.com/in/eivind-simonsen-9469121b9/"><i class="fab fa-linkedin"></i></a>
         </li>
         <li class="nav-item" id="socials">
-          <a class="nav-link" href="#"><i class="fab fa-github"></i></a>
+          <a class="nav-link" href="https://github.com/EivindSimonsen?tab=repositories"><i class="fab fa-github"></i></a>
         </li>
       </ul>
     </footer>

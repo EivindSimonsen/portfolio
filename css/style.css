@@ -30,14 +30,17 @@ html {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-weight: 500;
 }
 
 p,
 h2,
 h3,
-h4 {
+h4,
+h5,
+.modal-body {
   color: #444649;
 }
 
@@ -533,5 +536,35 @@ textarea:focus {
 .fa-arrow-alt-circle-up {
   font-size: 4rem;
   color: #ff4858;
+}
+
+.modal-btn {
+  border: none;
+}
+
+.modal-content img {
+  width: 100%;
+  height: inherit;
+}
+
+.modal-content img:hover {
+  border: 2px solid #ff4858;
+}
+
+.modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.modal-footer .cta {
+  padding: 5px 20px;
+}
+
+.modal-body {
+  line-height: 2;
 }
 /*# sourceMappingURL=style.css.map */

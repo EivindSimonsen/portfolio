@@ -1,0 +1,25 @@
+.modal-btn {
+  border: none;
+}
+
+.modal-content img {
+  width: 100%;
+  height: inherit;
+
+  &:hover {
+    border: 2px solid $secondary-color;
+  }
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-evenly;
+
+  & .cta {
+    padding: 5px 20px;
+  }
+}
+
+.modal-body {
+  line-height: 2;
+}
