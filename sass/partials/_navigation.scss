@@ -18,9 +18,9 @@
   background-color: $link-color;
   padding: 0px;
 
-  & > .container-fluid {
-    justify-content: end !important;
-  }
+  /* & > .container-fluid {
+    justify-content: end;
+  } */
 
   &-nav {
     margin: 0px auto;
