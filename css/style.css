@@ -472,6 +472,10 @@ header p {
   border: 3px solid #18a89f;
 }
 
+.projects__container img:hover {
+  border: 3px solid #ff4858;
+}
+
 @media (min-width: 1400px) {
   .projects__container img {
     width: 400px;
