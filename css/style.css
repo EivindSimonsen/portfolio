@@ -25,8 +25,16 @@ body {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: 500;
+}
+
+p,
+h2,
+h3,
+h4 {
+  color: #444649;
 }
 
 .section-heading {
@@ -35,7 +43,6 @@ h3 {
 }
 
 .section-heading h2 {
-  color: #444649;
   font-size: 3rem;
   position: relative;
 }
@@ -120,13 +127,13 @@ h3 {
 
 footer {
   background-color: #18a89f;
-  padding: 80px;
+  padding: 60px;
 }
 
 #socials a {
   color: #ffffff;
-  font-size: 1.7rem;
-  margin: 0px 100px;
+  font-size: 3rem;
+  margin: 0px 50px;
 }
 
 #socials a:hover {
@@ -144,6 +151,10 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+header h1,
+header p {
   color: #ffffff;
 }
 
@@ -237,11 +248,17 @@ header {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .description p,
 .description h3 {
-  color: #444649;
   line-height: 2;
 }
 
@@ -252,10 +269,169 @@ header {
 }
 
 .description > * {
-  margin: 50px;
+  margin: 20px;
 }
 
 .description__text {
   max-width: 350px;
+}
+
+@media (min-width: 768px) {
+  .description {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .description > * {
+    margin: 50px;
+  }
+}
+
+.attributes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.attributes > * {
+  margin: 100px;
+}
+
+@media (min-width: 1235px) {
+  .attributes {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+.hexagon {
+  background-color: #18a89f;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.hexagon p,
+.hexagon h4 {
+  line-height: 1.6;
+}
+
+.hexagon:before {
+  content: "";
+  background-color: #18a89f;
+  height: 100%;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.fa-desktop,
+.fa-mobile-alt,
+.fa-history,
+.fa-search,
+.fa-lightbulb {
+  position: absolute;
+  font-size: 2.5rem;
+  color: #ffffff;
+  top: 30%;
+}
+
+.fa-desktop {
+  left: 8%;
+}
+
+.fa-mobile-alt {
+  right: 10%;
+}
+
+.fa-history,
+.fa-search {
+  left: 30%;
+}
+
+.fa-lightbulb {
+  left: 37%;
+}
+
+.hexagon__text {
+  position: absolute;
+  text-align: center;
+}
+
+.hexagon__text h4 {
+  margin-top: 30px;
+  white-space: nowrap;
+}
+
+.hexagon__text p {
+  width: 200px;
+  text-align: center;
+}
+
+.responsive {
+  right: -50px;
+}
+
+.effectivity {
+  right: -50px;
+}
+
+.attention {
+  right: -55px;
+}
+
+.adaptive {
+  right: -50px;
+}
+
+.skillset {
+  max-width: 800px;
+  margin: 0px auto;
+}
+
+.skillset__container {
+  text-align: center;
+}
+
+.skillset > * {
+  margin: 30px 0px;
+}
+
+.skillset__container i {
+  font-size: 8rem;
+}
+
+.fa-html5,
+.fa-css3-alt,
+.fa-js-square,
+.fa-sass,
+.fa-bootstrap,
+.fa-wordpress {
+  color: #18a89f;
+}
+
+.projects {
+  background-color: #f2f2f2;
+}
+
+.projects > .section-heading {
+  padding: 50px;
 }
 /*# sourceMappingURL=style.css.map */
