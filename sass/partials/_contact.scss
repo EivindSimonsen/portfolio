@@ -1,0 +1,50 @@
+.contact {
+  padding-bottom: 100px;
+
+  & > .section-heading {
+    padding: 50px;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0px auto;
+
+  & > * {
+    margin: 5px 0px;
+  }
+
+  & input,
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid $primary-color;
+    outline: none;
+  }
+
+  @media (min-width: $tablet) {
+    max-width: 500px;
+  }
+}
+
+input:focus,
+textarea:focus {
+  border: 2px solid $secondary-color;
+}
+
+.to-top {
+  margin-top: 80px;
+  text-align: center;
+
+  & button {
+    background: none;
+    border: none;
+  }
+}
+
+.fa-arrow-alt-circle-up {
+  font-size: 4rem;
+  color: $secondary-color;
+}
