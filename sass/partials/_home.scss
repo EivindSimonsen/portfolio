@@ -39,8 +39,10 @@ header {
       font-size: 2rem;
     }
 
-    & span {
-      font-size: 2.4rem;
+    @media (min-width: $tablet) {
+      & span {
+        font-size: 2.4rem;
+      }
     }
   }
 
