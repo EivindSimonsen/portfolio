@@ -33,8 +33,10 @@ $desktop: 1400px;
   font-size: 1.3rem;
   margin: 10px 0px;
   @include cta-shadow;
+  text-decoration: none;
 
   &:hover {
     background-color: darken($color: $secondary-color, $amount: 5);
+    color: $link-color;
   }
 }

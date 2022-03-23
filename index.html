@@ -19,7 +19,7 @@
           <h1>Hello!</h1>
           <p>I'm Eivind Aleksander Simonsen!</p>
           <p>Junior front-end developer</p>
-          <button class="cta">View my work</button>
+          <a class="cta active-home" href="#about">View my work</a>
         </div>
         <div class="home__snippet">
           <p>const infoAboutMe = [</p>
@@ -48,19 +48,19 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link active-about" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link active-projects" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link active-contact" href="#contact">Contact</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-      <section class="about">
+      <section class="about" id="about">
         <div class="section-heading">
           <h2>About</h2>
         </div>
@@ -132,7 +132,7 @@
           </div>
         </div>
       </section>
-      <section class="projects">
+      <section class="projects" id="projects">
         <div class="section-heading">
           <h2>Projects</h2>
         </div>
@@ -157,7 +157,7 @@
           </div>
         </div>
       </section>
-      <section class="contact">
+      <section class="contact" id="contact">
         <div class="section-heading">
           <h2>Contact</h2>
         </div>
@@ -171,7 +171,8 @@
           <button class="cta">Submit</button>
         </form>
         <div class="to-top">
-          <button><i class="fas fa-arrow-alt-circle-up"></i></button>
+          <!-- <button><i class="fas fa-arrow-alt-circle-up"></i></button> -->
+          <a href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
         </div>
       </section>
     </main>

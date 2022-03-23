@@ -4,6 +4,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  margin-bottom: 100px;
 }
 
 .sticky + .about {
@@ -15,6 +16,7 @@
   @include cta-shadow;
   z-index: 1000;
   background-color: $link-color;
+  padding: 0px;
 
   & > .container-fluid {
     justify-content: end;
