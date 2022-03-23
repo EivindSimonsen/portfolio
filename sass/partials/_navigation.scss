@@ -19,7 +19,7 @@
   padding: 0px;
 
   & > .container-fluid {
-    justify-content: end;
+    justify-content: end !important;
   }
 
   &-nav {
