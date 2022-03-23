@@ -538,6 +538,10 @@ textarea:focus {
   color: #ff4858;
 }
 
+.mail {
+  text-align: center;
+}
+
 .modal-btn {
   border: none;
   padding: 0px;
