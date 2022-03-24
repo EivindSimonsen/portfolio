@@ -1,6 +1,6 @@
 # My portfolio
 
-> This project represents all my projects and description of myself.
+> This project tells job seekers about who I am, and what skills I have. All my projects will be displayed here.
 > Live demo [_here_](https://www.easimonsen.com). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
