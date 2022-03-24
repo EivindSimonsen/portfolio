@@ -10,19 +10,15 @@
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Setup](#setup)
-- [Usage](#usage)
 - [Project Status](#project-status)
 - [Room for Improvement](#room-for-improvement)
-- [Acknowledgements](#acknowledgements)
 - [Contact](#contact)
 <!-- * [License](#license) -->
 
 ## General Information
 
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+- This site is for job seeking purposes.
+- A place where I can display my skills and previous projects.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Technologies Used
@@ -51,7 +47,7 @@ No setup required.
 
 ## Project Status
 
-Project is:_complete_. Site is finished built, will only add future projects to it.
+Project is: _complete_. Site is finished built, will only add future projects to it.
 
 ## Room for Improvement
 
