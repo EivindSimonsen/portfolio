@@ -30,8 +30,6 @@
 
 ## Features
 
-List the ready features here:
-
 - Displays finished projects.
 
 ## Screenshots
