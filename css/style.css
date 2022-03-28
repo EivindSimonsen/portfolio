@@ -544,6 +544,15 @@ textarea:focus {
 
 .mail {
   text-align: center;
+  font-size: 1.3rem;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .mail {
+    font-size: 1.7rem;
+  }
 }
 
 .modal-btn {
