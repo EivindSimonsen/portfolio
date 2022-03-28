@@ -55,6 +55,7 @@ textarea:focus {
   font-size: 1.3rem;
   background-color: $background-color;
   padding: 20px;
+  border: 3px dashed $secondary-color;
 
   @media (min-width: $tablet) {
     font-size: 1.7rem;
