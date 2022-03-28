@@ -1,3 +1,31 @@
+<?php
+  $message_sent = false;
+  if(isset($_POST["email"]) && $_POST["email"] != "") {
+
+    if (filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
+      // Submit the form
+      $userName = $_POST["name"];
+      $userEmail = $_POST["email"];
+      $messageSubject = $_POST["subject"];
+      $userMessage = $_POST["message"];
+
+      $to = "eivind.simonsen1998@gmail.com";
+      $body = "";
+
+      $body .= "From: ".$userName. "\r\n";
+      $body .= "Email: ".$userEmail. "\r\n";
+      $body .= "Message: ".$userMessage. "\r\n";
+
+      mail($to, $messageSubject, $body);
+
+      $message_sent = true;
+    }
+    else {
+      $invalid = "form-invalid";
+    }
+  }
+?> 
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -149,20 +177,32 @@
         <div class="section-heading">
           <h2>Contact</h2>
         </div>
-        <form method="POST">
-          <div class="mail">
+        <?php
+            if ($message_sent):
+          ?>
+          <h3>Message sent!</h3>
+          <?php
+            else:
+          ?>
+        <form action="index.php" method="POST">
+          <!-- <div class="mail">
             <p>php skills not found...</p>
             <p>Form is non-functional at this time.</p>
             <a class="nav-link" href="https://www.linkedin.com/in/eivind-simonsen-9469121b9/">You can reach me at linkedIn here!</a>
-          </div>
+          </div> -->
           <label for="name"></label>
-          <input type="text" id="name" placeholder="First name" />
+          <input name="name" type="text" id="name" placeholder="First name" />
           <label for="email"></label>
-          <input type="text" id="email" placeholder="Your mail" />
+          <input name="email" type="text" id="email <?= $invalid ?? "" ?>" placeholder="Your mail" />
+          <label for="subject"></label>
+          <input name="subject" type="text" id="subject" placeholder="Subject" />
           <label for="message"></label>
           <textarea name="message" id="message" placeholder="Your message" cols="30" rows="10"></textarea>
           <button class="cta">Submit</button>
         </form>
+        <?php
+          endif;
+        ?>
         <div class="to-top">
           <a href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
         </div>
