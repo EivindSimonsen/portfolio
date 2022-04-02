@@ -24,7 +24,7 @@ export const projects = [
         githubLink: "https://github.com/EivindSimonsen/vermint-gallery",
     },
     {
-        name: "Community Science Musem - Semester project",
+        name: "Community Science Museum - Semester project",
         content: "For the semester project, i was tasked in creating a website for a fictional musem. I was to represent a website for all ages, and create interest for potential visitors.",
         image: "../../img/Capture4.JPG",
         modalNr: "modal-four",
