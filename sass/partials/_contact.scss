@@ -48,6 +48,10 @@ textarea:focus {
 .fa-arrow-alt-circle-up {
   font-size: 4rem;
   color: $secondary-color;
+
+  &:hover {
+    color: darken($color: $secondary-color, $amount: 5);
+  }
 }
 
 .mail {

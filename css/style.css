@@ -542,6 +542,10 @@ textarea:focus {
   color: #ff4858;
 }
 
+.fa-arrow-alt-circle-up:hover {
+  color: #ff2f41;
+}
+
 .mail {
   text-align: center;
   font-size: 1.3rem;
