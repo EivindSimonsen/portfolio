@@ -15,7 +15,7 @@ for (let i = 0; i < projects.length; i++) {
     <div class="col-lg-4 col-sm-12 col-md-6">
             <button type="button" class="modal-btn" data-bs-toggle="modal" data-bs-target="#${projects[i].modalNr}">
               <div class="col-lg-4 col-sm-12 col-md-6">
-                <img src="${projects[i].image}" alt="${projects[i].name}" />
+                <img loading="lazy" src="${projects[i].image}" alt="${projects[i].name}" />
               </div>
             </button>
             <div class="modal fade" id="${projects[i].modalNr}" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
