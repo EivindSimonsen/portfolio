@@ -151,24 +151,27 @@
         <div class="section-heading">
           <h2>Contact</h2>
         </div>
-        <form name="contact-form" method="POST" data-netlify="true">
+        <form name="contact-form" method="POST" data-netlify="true" netlify-honeypot="bot-field">
           <!-- <div class="mail">
             <p>php skills not found...</p>
             <p>Form is non-functional at this time.</p>
             <a class="nav-link" href="https://www.linkedin.com/in/eivind-simonsen-9469121b9/">You can reach me at linkedIn here!</a>
           </div> -->
           <label for="name"></label>
-          <input name="name" type="text" id="name" placeholder="First name" />
+          <input name="name" type="text" id="name" placeholder="Full name" />
           <label for="email"></label>
           <input name="email" type="text" id="email" placeholder="Your mail" />
           <label for="subject"></label>
           <input name="subject" type="text" id="subject" placeholder="Subject" />
           <label for="message"></label>
           <textarea name="message" id="message" placeholder="Your message" cols="30" rows="10"></textarea>
-          <button class="cta">Submit</button>
           <div class="field">
             <div data-netlify-recaptcha="true"></div>
           </div>
+          <p class="hidden">
+            <label> Hidden field for non-humans <input name="bot-field" /> </label>
+          </p>
+          <button class="cta">Submit</button>
         </form>
         <div class="to-top">
           <a href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>

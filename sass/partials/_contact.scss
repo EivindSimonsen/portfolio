@@ -65,3 +65,12 @@ textarea:focus {
     font-size: 1.7rem;
   }
 }
+
+.field {
+  display: flex;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
