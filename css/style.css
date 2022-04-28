@@ -568,6 +568,16 @@ textarea:focus {
   display: none;
 }
 
+.form-error {
+  color: #ff4858;
+  font-size: 1.2rem;
+}
+
+.disabled:disabled {
+  background-color: #444649;
+  opacity: 0.5;
+}
+
 .modal-btn {
   border: none;
   padding: 0px;

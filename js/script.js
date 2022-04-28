@@ -1,9 +1,12 @@
 import { stickyNav } from "./components/stickyNav.js";
 import { projects } from "./components/projectsArray.js";
+import { validateForm } from "./components/formValidation.js";
 
 window.onscroll = function() {
     stickyNav();
 };
+
+validateForm();
 
 const projectContainer = document.querySelector(".projects__container");
 
