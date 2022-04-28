@@ -5,7 +5,7 @@ export function validateForm() {
     const email = document.querySelector("#email");
     const subject = document.querySelector("#subject");
     const message = document.querySelector("#message");
-    const checkbox = document.querySelector(".recaptcha-checkbox");
+    const checkbox = document.querySelector(".g-recaptcha");
 
     function validateFormInputs(event) {
         event.preventDefault();
