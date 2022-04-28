@@ -151,12 +151,12 @@
         <div class="section-heading">
           <h2>Contact</h2>
         </div>
-        <form method="POST">
-          <div class="mail">
+        <form name="contact-form" method="POST" data-netlify="true">
+          <!-- <div class="mail">
             <p>php skills not found...</p>
             <p>Form is non-functional at this time.</p>
             <a class="nav-link" href="https://www.linkedin.com/in/eivind-simonsen-9469121b9/">You can reach me at linkedIn here!</a>
-          </div>
+          </div> -->
           <label for="name"></label>
           <input name="name" type="text" id="name" placeholder="First name" />
           <label for="email"></label>
@@ -166,6 +166,9 @@
           <label for="message"></label>
           <textarea name="message" id="message" placeholder="Your message" cols="30" rows="10"></textarea>
           <button class="cta">Submit</button>
+          <div class="field">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
         </form>
         <div class="to-top">
           <a href="#"><i class="fas fa-arrow-alt-circle-up"></i></a>
