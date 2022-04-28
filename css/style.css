@@ -578,10 +578,6 @@ textarea:focus {
   opacity: 0.5;
 }
 
-.checkbox {
-  display: none;
-}
-
 .modal-btn {
   border: none;
   padding: 0px;
