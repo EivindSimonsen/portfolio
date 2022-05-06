@@ -134,7 +134,7 @@ h5,
 
 footer {
   background-color: #18a89f;
-  padding: 60px;
+  padding: 10px;
 }
 
 #socials a {
@@ -561,7 +561,7 @@ textarea:focus {
 }
 
 .field {
-  margin: 30px auto;
+  margin: 10px auto;
 }
 
 .hidden {
