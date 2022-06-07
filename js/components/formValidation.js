@@ -24,6 +24,7 @@ export function validateForm() {
   }
 }
 
+// this code checks if the captcha is checked or not. If it is not checked on submission, the alert will go off.
 document.querySelector("form").addEventListener("submit", function (event) {
   const response = grecaptcha.getResponse();
   if (response.length === 0) {
