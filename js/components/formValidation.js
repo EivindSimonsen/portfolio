@@ -4,7 +4,6 @@ export function validateForm() {
   const email = document.querySelector("#email");
   const subject = document.querySelector("#subject");
   const message = document.querySelector("#message");
-  /* const captcha = document.querySelector(".field"); */
 
   function validateFormInputs(event) {
     event.preventDefault();
