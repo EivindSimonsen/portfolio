@@ -7,12 +7,6 @@ export function validateForm() {
   /* const captcha = document.querySelector(".field"); */
 
   function validateFormInputs(event) {
-    const response = grecaptcha.getResponse();
-    if (response.length === 0) {
-      alert("please verify you are human!");
-      event.preventDefault();
-      return false;
-    }
     event.preventDefault();
 
     if (fullName.value.trim().length > 0 && validateEmail(email.value) === true && subject.value.trim().length > 0 && message.value.trim().length > 0) {
@@ -30,3 +24,12 @@ export function validateForm() {
     return patternMatches;
   }
 }
+
+document.querySelector(".field").addEventListener("submit", function (event) {
+  const response = grecaptcha.getResponse();
+  if (response.length === 0) {
+    alert("please verify you are human!");
+    event.preventDefault();
+    return false;
+  }
+});
