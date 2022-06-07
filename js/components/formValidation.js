@@ -28,7 +28,7 @@ export function validateForm() {
 document.querySelector("form").addEventListener("submit", function (event) {
   const response = grecaptcha.getResponse();
   if (response.length === 0) {
-    alert("please verify you are human!");
+    alert("Please verify you are human!");
     event.preventDefault();
     return false;
   }
