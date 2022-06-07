@@ -579,6 +579,10 @@ textarea:focus {
   opacity: 0.5;
 }
 
+label {
+  display: none;
+}
+
 .modal-btn {
   border: none;
   padding: 0px;
