@@ -4,10 +4,10 @@ export function validateForm() {
   const email = document.querySelector("#email");
   const subject = document.querySelector("#subject");
   const message = document.querySelector("#message");
-  const captcha = document.querySelector(".field");
+  /* const captcha = document.querySelector(".field"); */
 
   function validateFormInputs(event) {
-    const response = captcha.getResponse();
+    const response = grecaptcha.getResponse();
     if (response.length === 0) {
       alert("please verify you are human!");
       event.preventDefault();
