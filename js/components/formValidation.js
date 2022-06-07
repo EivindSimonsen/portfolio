@@ -25,7 +25,7 @@ export function validateForm() {
   }
 }
 
-document.querySelector(".field").addEventListener("submit", function (event) {
+document.querySelector("form").addEventListener("submit", function (event) {
   const response = grecaptcha.getResponse();
   if (response.length === 0) {
     alert("please verify you are human!");
