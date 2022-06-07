@@ -4,8 +4,15 @@ export function validateForm() {
   const email = document.querySelector("#email");
   const subject = document.querySelector("#subject");
   const message = document.querySelector("#message");
+  const captcha = document.querySelector(".field");
 
   function validateFormInputs(event) {
+    const response = captcha.getResponse();
+    if (response.length === 0) {
+      alert("please verify you are human!");
+      event.preventDefault();
+      return false;
+    }
     event.preventDefault();
 
     if (fullName.value.trim().length > 0 && validateEmail(email.value) === true && subject.value.trim().length > 0 && message.value.trim().length > 0) {
