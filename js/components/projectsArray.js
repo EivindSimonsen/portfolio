@@ -4,8 +4,8 @@ export const projects = [
     content: "This project was for practicing my react skills with use of components and stylings. My goal was to design the home page of the discord website without getting help from inspecting their code.",
     image: "../../img/Capture8.JPG",
     modalNr: "modal-five",
-    websiteLink: "https://musing-khorana-fbed8a.netlify.app/",
-    githubLink: "https://github.com/EivindSimonsen/home-decor",
+    websiteLink: "https://github.com/eivindsimonsen/discord-clone",
+    githubLink: "https://github.com/eivindsimonsen/discord-clone",
   },
   {
     name: "Running Man - E-commerce for shoes",
