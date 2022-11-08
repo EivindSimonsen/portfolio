@@ -34,8 +34,8 @@
 
 ## Screenshots
 
-![Example screenshot](./img/portfolioSnippet.JPG)
-![Example screenshot](./img/portfolioSnippet2.JPG)
+![Example screenshot](./img/portfolioSnippetOne.JPG)
+![Example screenshot](./img/portfolioSnippetTwo.JPG)
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
