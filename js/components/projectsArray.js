@@ -4,7 +4,7 @@ export const projects = [
     content: "My boss reached out and said he needed a website for Coop Øst's own staff association. Me and a fellow developer set out for the challenge. The websites purpose is to give information about what the association can offer for employees in Coop Øst. The association offers among other things, cheaper cabin rental. The website is built with REACT and SASS as pre-processor, with wordpress REST api for content. My boss can now fully change the content on the page, without reaching out to the devs.",
     image: "../../img/personalforeningen.JPG",
     modalNr: "modal-six",
-    websiteLink: "https://personalforeningen.netlify.app/",
+    websiteLink: "https://personalforeningen.com/",
     githubLink: "https://github.com/emiost/personal",
   },
   {
