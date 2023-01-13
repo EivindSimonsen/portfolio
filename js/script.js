@@ -15,7 +15,7 @@ for (let i = 0; i < projects.length; i++) {
   const link = projects[i].websiteLink;
 
   projectContainer.innerHTML += `
-    <div class="col-lg-4 col-sm-12 col-md-6">
+    <div data-aos="fade-up" class="col-lg-4 col-sm-12 col-md-6">
             <button type="button" class="modal-btn" data-bs-toggle="modal" data-bs-target="#${projects[i].modalNr}">
               <div class="col-lg-4 col-sm-12 col-md-6">
                 <img loading="lazy" src="${projects[i].image}" alt="${projects[i].name}" />

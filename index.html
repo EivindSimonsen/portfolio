@@ -16,6 +16,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png" />
     <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -28,13 +29,12 @@
           <a class="cta active-home" href="#about">View my work</a>
         </div>
         <div class="home__snippet">
-          <p>const infoAboutMe = [</p>
+          <p>const <span class="green">portfolio</span> = [</p>
           <p class="curly-braces">{</p>
-          <p><span class="red">firstName</span>: <span class="green">"Eivind"</span>,</p>
-          <p><span class="red">lastName</span>: <span class="green">"Simonsen"</span>,</p>
+          <p><span class="red">fullName</span>: <span class="green">"Eivind Simonsen"</span>,</p>
           <p><span class="red">age</span>: <span class="green">24</span>,</p>
-          <p><span class="red">description</span>: <span class="green">"Nice guy!"</span>,</p>
-          <p><span class="red">job</span>: <span class="green">null</span>,</p>
+          <p><span class="red">description</span>: <span class="green">"Frontend Developer"</span>,</p>
+          <p><span class="red">job</span>: <span class="green">"Searching.."</span>,</p>
           <p class="curly-braces">}</p>
           <p class="bracket">];</p>
         </div>
@@ -84,7 +84,7 @@
           </div>
         </div>
         <!-- Attributes section -->
-        <div class="attributes">
+        <div data-aos="fade-up" class="attributes">
           <div class="hexagon">
             <i class="fas fa-desktop"></i>
             <i class="fas fa-mobile-alt"></i>
@@ -116,7 +116,7 @@
           </div>
         </div>
         <!-- Skillset section -->
-        <div class="skillset container row">
+        <div data-aos="fade-up" class="skillset container row">
           <div class="skillset__container col-sm-12 col-md-6 col-lg-4">
             <h4>HTML</h4>
             <i class="fab fa-html5"></i>
@@ -197,5 +197,11 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/script.js" type="module"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
   </body>
 </html>
