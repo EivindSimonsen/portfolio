@@ -39,4 +39,12 @@ $desktop: 1400px;
     background-color: darken($color: $secondary-color, $amount: 5);
     color: $link-color;
   }
+
+  &-github {
+    background-color: #22272e;
+  }
+}
+
+.missing {
+  display: none;
 }

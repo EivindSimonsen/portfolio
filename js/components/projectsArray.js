@@ -16,19 +16,11 @@ export const projects = [
     githubLink: "https://github.com/Noroff-FEU-Assignments/project-exam-2-eivindsimonsen",
   },
   {
-    name: "Running Man - E-commerce for shoes",
-    content: "This was my semester project the second year of school, and we were tasked in creating an e-commerce for shoes. The website is taking use of STRAPI.IO, which I use to upload images, and making it possible to log in and out. I also take use of POST/GET/PUT and DELETE requests for an eventual user to create and add products by themselves.",
-    image: "../../img/runningman.JPG",
-    modalNr: "modal-three",
-    websiteLink: "https://running-man.netlify.app/index.html",
-    githubLink: "https://github.com/EivindSimonsen/semester-project-2",
-  },
-  {
     name: "Discord website clone",
     content: "This project was for practicing my react skills with use of components and stylings. My goal was to design the home page of the discord website without getting help from inspecting their code.",
     image: "../../img/discord.JPG",
     modalNr: "modal-two",
-    websiteLink: "https://github.com/eivindsimonsen/discord-clone",
+    websiteLink: "",
     githubLink: "https://github.com/eivindsimonsen/discord-clone",
   },
   {
