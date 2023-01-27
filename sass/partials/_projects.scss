@@ -19,11 +19,14 @@
   }
 
   & img {
+    @include shadow-elevation-medium();
     width: 300px;
     height: 170px;
+    transition: 0.3s;
 
     &:hover {
-      padding: 2px;
+      @include shadow-elevation-high();
+      transition: 0.3s;
     }
 
     @media (min-width: $desktop) {
