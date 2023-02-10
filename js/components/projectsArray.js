@@ -5,7 +5,7 @@ export const projects = [
     image: "../../img/adviceApp.JPG",
     modalNr: "modal-seven",
     websiteLink: "https://blogr-eas.netlify.app/",
-    githubLink: "https://app.netlify.com/sites/advice-generator-eas/overview",
+    githubLink: "https://advice-generator-eas.netlify.app/",
   },
   {
     name: "Blogr landing page",
