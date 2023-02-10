@@ -1,5 +1,21 @@
 export const projects = [
   {
+    name: "Advice generator app",
+    content: "An easy and fast web app which gives daily advice. Advices are fetched from an API and the design is created with TailwindCSS",
+    image: "../../img/adviceApp.JPG",
+    modalNr: "modal-seven",
+    websiteLink: "https://blogr-eas.netlify.app/",
+    githubLink: "https://app.netlify.com/sites/advice-generator-eas/overview",
+  },
+  {
+    name: "Blogr landing page",
+    content: "First time trying vite + react for designing a website for bloggers. The challenge is offered by Frontend Mentor, and is not for real use. The task is to create the design in code as close as possible. Project was coded in Vite + React",
+    image: "../../img/blogr.JPG",
+    modalNr: "modal-six",
+    websiteLink: "https://blogr-eas.netlify.app/",
+    githubLink: "https://github.com/eivindsimonsen/blogr-landing-page",
+  },
+  {
     name: "React E-commerce website",
     content: "This project was made in my freetime to develop my skills in React further. It features state management from several components to store and send shopping cart data. It also features a gallery with a modal functionality. Styles was made with SASS.",
     image: "../../img/react-ecommerce.JPG",
