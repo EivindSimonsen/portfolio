@@ -3,7 +3,7 @@ export const projects = [
     name: "Advice generator app",
     content: "An easy and fast web app which gives daily advice. Advices are fetched from an API and the design is created with TailwindCSS",
     image: "../../img/adviceApp.JPG",
-    modalNr: "modal-seven",
+    modalNr: "modal-eight",
     websiteLink: "https://blogr-eas.netlify.app/",
     githubLink: "https://advice-generator-eas.netlify.app/",
   },
