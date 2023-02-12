@@ -9,20 +9,28 @@ $desktop: 1400px;
 
 @mixin background-gradiant {
   background: $primary-color;
-
   background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 152, 155, 1) 0.1%, rgba(0, 94, 120, 1) 94.2%);
 }
 
-@mixin cta-shadow {
-  box-shadow: 2px 2px 5px 2px rgba(26, 53, 64, 0.49);
+@mixin shadow-elevation-medium--cta {
+  box-shadow: 0.3px 0.5px 0.5px rgba(26, 53, 64, 0.54), 0.6px 1.2px 1.3px -1.2px rgba(26, 53, 64, 0.45), 1.9px 3.7px 3.9px -2.5px rgba(26, 53, 64, 0.36), 5px 10px 10.5px -3.7px rgba(26, 53, 64, 0.27);
 }
 
-@mixin box-shadow {
-  box-shadow: 5px 5px 5px 2px rgba(26, 53, 64, 0.49);
+@mixin shadow-elevation-high--cta {
+  box-shadow: 0.3px 0.5px 0.5px rgba(26, 53, 64, 0.5), 0.9px 1.8px 1.9px -0.5px rgba(26, 53, 64, 0.46), 1.8px 3.5px 3.7px -1.1px rgba(26, 53, 64, 0.42), 3.3px 6.7px 7px -1.6px rgba(26, 53, 64, 0.38), 6px 12px 12.6px -2.1px rgba(26, 53, 64, 0.34), 10.2px 20.4px 21.4px -2.7px rgba(26, 53, 64, 0.29), 16.4px 32.8px 34.4px -3.2px rgba(26, 53, 64, 0.25), 25px 50px 52.4px -3.7px rgba(26, 53, 64, 0.21);
 }
 
 @mixin text-shadow {
-  text-shadow: 2px 3px 3px $text-color;
+  text-shadow: 2px 3px 15px $primary-color;
+}
+
+// ------------ Box-shadows-call to actions ------------
+@mixin shadow-elevation-medium {
+  box-shadow: 0.3px 0.5px 0.5px hsl(0deg 0% 63% / 0.54), 0.6px 1.2px 1.3px -1.2px hsl(0deg 0% 63% / 0.45), 1.9px 3.7px 3.9px -2.5px hsl(0deg 0% 63% / 0.36), 5px 10px 10.5px -3.7px hsl(0deg 0% 63% / 0.27);
+}
+
+@mixin shadow-elevation-high {
+  box-shadow: 0.3px 0.5px 0.5px hsl(0deg 0% 63% / 0.5), 0.9px 1.8px 1.9px -0.5px hsl(0deg 0% 63% / 0.46), 1.8px 3.5px 3.7px -1.1px hsl(0deg 0% 63% / 0.42), 3.3px 6.7px 7px -1.6px hsl(0deg 0% 63% / 0.38), 6px 12px 12.6px -2.1px hsl(0deg 0% 63% / 0.34), 10.2px 20.4px 21.4px -2.7px hsl(0deg 0% 63% / 0.29), 16.4px 32.8px 34.4px -3.2px hsl(0deg 0% 63% / 0.25), 25px 50px 52.4px -3.7px hsl(0deg 0% 63% / 0.21);
 }
 
 .cta {
@@ -33,12 +41,14 @@ $desktop: 1400px;
   color: $link-color;
   font-size: 1.3rem;
   margin: 10px 0px;
-  @include cta-shadow;
+  @include shadow-elevation-medium--cta();
   text-decoration: none;
+  transition: 0.15s;
 
   &:hover {
-    background-color: darken($color: $secondary-color, $amount: 5);
+    transition: 0.15s;
     color: $link-color;
+    @include shadow-elevation-high--cta();
   }
 
   &-github {
@@ -48,17 +58,4 @@ $desktop: 1400px;
 
 .missing {
   display: none;
-}
-
-// ------------ Box-shadows-call to actions ------------
-@mixin shadow-elevation-low {
-  box-shadow: 0.3px 0.5px 0.7px hsl(0deg 0% 63% / 0.34), 0.4px 0.8px 1px -1.2px hsl(0deg 0% 63% / 0.34), 1px 2px 2.5px -2.5px hsl(0deg 0% 63% / 0.34);
-}
-
-@mixin shadow-elevation-medium {
-  box-shadow: 0.3px 0.5px 0.5px hsl(0deg 0% 63% / 0.54), 0.6px 1.2px 1.3px -1.2px hsl(0deg 0% 63% / 0.45), 1.9px 3.7px 3.9px -2.5px hsl(0deg 0% 63% / 0.36), 5px 10px 10.5px -3.7px hsl(0deg 0% 63% / 0.27);
-}
-
-@mixin shadow-elevation-high {
-  box-shadow: 0.3px 0.5px 0.5px hsl(0deg 0% 63% / 0.5), 0.9px 1.8px 1.9px -0.5px hsl(0deg 0% 63% / 0.46), 1.8px 3.5px 3.7px -1.1px hsl(0deg 0% 63% / 0.42), 3.3px 6.7px 7px -1.6px hsl(0deg 0% 63% / 0.38), 6px 12px 12.6px -2.1px hsl(0deg 0% 63% / 0.34), 10.2px 20.4px 21.4px -2.7px hsl(0deg 0% 63% / 0.29), 16.4px 32.8px 34.4px -3.2px hsl(0deg 0% 63% / 0.25), 25px 50px 52.4px -3.7px hsl(0deg 0% 63% / 0.21);
 }

@@ -31,7 +31,9 @@ form {
 }
 
 input:focus,
-textarea:focus {
+textarea:focus,
+input:hover,
+textarea:hover {
   border: 2px solid $secondary-color;
 }
 
@@ -70,6 +72,10 @@ textarea:focus {
 .disabled:disabled {
   background-color: $text-color;
   opacity: 0.5;
+}
+
+.disabled:hover {
+  @include shadow-elevation-medium--cta();
 }
 
 label {

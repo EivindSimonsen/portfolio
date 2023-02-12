@@ -13,7 +13,7 @@
 
 .navbar {
   margin-bottom: 50px;
-  @include cta-shadow;
+  @include shadow-elevation-high();
   z-index: 1000;
   background-color: $link-color;
   padding: 0px;
