@@ -48,32 +48,10 @@ header {
 
   &__snippet {
     color: $text-color;
-    background-color: $link-color;
     padding: 80px;
-    border-radius: 15px;
-    @include box-shadow;
-    font-size: 1.7rem;
     display: none;
     @media (min-width: $desktop) {
       display: block;
     }
   }
-
-  &__snippet > * {
-    line-height: 0.6;
-    color: $text-color;
-  }
-}
-
-.red {
-  color: $secondary-color;
-  margin-left: 50px;
-}
-
-.green {
-  color: $primary-color;
-}
-
-.curly-braces {
-  margin-left: 25px;
 }

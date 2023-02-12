@@ -1,4 +1,4 @@
-$primary-color: #18a89f;
+$primary-color: rgba(0, 152, 155, 1);
 $secondary-color: #ff4858;
 $link-color: #ffffff;
 $text-color: #444649;
@@ -8,8 +8,9 @@ $tablet: 768px;
 $desktop: 1400px;
 
 @mixin background-gradiant {
-  background: rgb(24, 168, 159);
-  background: linear-gradient(90deg, rgba(24, 168, 159, 1) 0%, rgba(28, 35, 34, 1) 100%);
+  background: $primary-color;
+
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(0, 152, 155, 1) 0.1%, rgba(0, 94, 120, 1) 94.2%);
 }
 
 @mixin cta-shadow {
