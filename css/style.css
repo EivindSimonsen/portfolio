@@ -183,6 +183,9 @@ header h1, header p {
     font-size: 2rem;
   }
 }
+.home__intro p {
+  white-space: nowrap;
+}
 .home__intro span {
   color: #ff4858;
   font-weight: 500;

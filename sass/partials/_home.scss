@@ -43,6 +43,10 @@ header {
       font-size: 2rem;
     }
 
+    p {
+      white-space: nowrap;
+    }
+
     & span {
       color: #ff4858;
       font-weight: 500;
