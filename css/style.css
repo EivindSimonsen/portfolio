@@ -183,11 +183,9 @@ header h1, header p {
     font-size: 2rem;
   }
 }
-@media (min-width: 768px) {
-  .home__intro span {
-    color: #ff4858;
-    font-weight: 500;
-  }
+.home__intro span {
+  color: #ff4858;
+  font-weight: 500;
 }
 .home__snippet {
   color: #444649;

@@ -43,11 +43,9 @@ header {
       font-size: 2rem;
     }
 
-    @media (min-width: $tablet) {
-      & span {
-        color: #ff4858;
-        font-weight: 500;
-      }
+    & span {
+      color: #ff4858;
+      font-weight: 500;
     }
   }
 
