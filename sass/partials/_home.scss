@@ -38,7 +38,6 @@ header {
   &__intro {
     text-align: center;
     font-size: 1.3rem;
-    @include text-shadow;
     @media (min-width: $tablet) {
       font-size: 2rem;
     }
@@ -48,8 +47,16 @@ header {
     }
 
     & span {
-      color: #ff4858;
+      color: #feff07;
       font-weight: 500;
+    }
+
+    &--spacing {
+      letter-spacing: 4px;
+    }
+
+    & .button-spacing {
+      margin-bottom: 40px;
     }
   }
 
