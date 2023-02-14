@@ -1,5 +1,5 @@
 .cta {
-  padding: 10px 20px;
+  padding: 16px 25px;
   border: none;
   background-color: #ff4858;
   border-radius: 5px;
@@ -17,6 +17,10 @@
 }
 .cta-github {
   background-color: #22272e;
+}
+
+.fa-arrow-down {
+  margin-left: 10px;
 }
 
 .missing {
@@ -176,7 +180,6 @@ header h1, header p {
 .home__intro {
   text-align: center;
   font-size: 1.3rem;
-  text-shadow: 2px 3px 15px rgb(0, 152, 155);
 }
 @media (min-width: 768px) {
   .home__intro {
@@ -187,8 +190,14 @@ header h1, header p {
   white-space: nowrap;
 }
 .home__intro span {
-  color: #ff4858;
+  color: #feff07;
   font-weight: 500;
+}
+.home__intro--spacing {
+  letter-spacing: 4px;
+}
+.home__intro .button-spacing {
+  margin-bottom: 40px;
 }
 .home__snippet {
   color: #444649;
@@ -369,7 +378,7 @@ header h1, header p {
 }
 
 .skillset__container i {
-  font-size: 8rem;
+  font-size: 7rem;
 }
 
 .fa-html5,
@@ -378,8 +387,13 @@ header h1, header p {
 .fa-sass,
 .fa-bootstrap,
 .fa-wordpress,
-.fa-react {
+.fa-react,
+.fa-database {
   color: rgb(0, 152, 155);
+}
+
+.section-heading > .smaller-title {
+  font-size: 2rem;
 }
 
 .projects {
@@ -392,6 +406,7 @@ header h1, header p {
 
 .projects__container {
   margin: 0px auto;
+  text-align: center;
 }
 .projects__container > * {
   margin: 15px 0px;
@@ -408,8 +423,42 @@ header h1, header p {
 }
 @media (min-width: 1400px) {
   .projects__container img {
+    text-align: left;
     width: 400px;
     height: 200px;
+  }
+}
+
+.certificate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+.certificate img {
+  max-width: 300px;
+}
+@media (min-width: 1400px) {
+  .certificate img {
+    transition: 1.5s;
+    box-shadow: 0.3px 0.5px 0.5px hsla(0deg, 0%, 63%, 0.54), 0.6px 1.2px 1.3px -1.2px hsla(0deg, 0%, 63%, 0.45), 1.9px 3.7px 3.9px -2.5px hsla(0deg, 0%, 63%, 0.36), 5px 10px 10.5px -3.7px hsla(0deg, 0%, 63%, 0.27);
+    cursor: zoom-in;
+  }
+  .certificate img:hover {
+    transform: scale(1.4);
+    transition: 1.5s;
+    box-shadow: 0.3px 0.5px 0.5px hsla(0deg, 0%, 63%, 0.5), 0.9px 1.8px 1.9px -0.5px hsla(0deg, 0%, 63%, 0.46), 1.8px 3.5px 3.7px -1.1px hsla(0deg, 0%, 63%, 0.42), 3.3px 6.7px 7px -1.6px hsla(0deg, 0%, 63%, 0.38), 6px 12px 12.6px -2.1px hsla(0deg, 0%, 63%, 0.34), 10.2px 20.4px 21.4px -2.7px hsla(0deg, 0%, 63%, 0.29), 16.4px 32.8px 34.4px -3.2px hsla(0deg, 0%, 63%, 0.25), 25px 50px 52.4px -3.7px hsla(0deg, 0%, 63%, 0.21);
+  }
+}
+@media (min-width: 992px) {
+  .certificate img {
+    max-width: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .certificate {
+    flex-direction: row;
   }
 }
 
