@@ -62,7 +62,6 @@ header {
 
   &__snippet {
     color: $text-color;
-    padding: 80px;
     display: none;
     @media (min-width: $desktop) {
       display: block;
