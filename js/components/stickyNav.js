@@ -5,51 +5,51 @@ const activeAbout = document.querySelector(".active-about");
 const activeProjects = document.querySelector(".active-projects");
 const activeContact = document.querySelector(".active-contact");
 const h2 = document.querySelector(".extra-padding-about-h2 h2");
-const navCollapse = document.querySelector(".navbar-collapse")
+const navCollapse = document.querySelector(".navbar-collapse");
 
 const sticky = nav.offsetTop;
 
 export function stickyNav() {
-    if (window.pageYOffset >= sticky) {
-        nav.classList.add("sticky")
-    } else {
-        nav.classList.remove("sticky");
-    }
+  if (window.pageYOffset >= sticky) {
+    nav.classList.add("sticky");
+  } else {
+    nav.classList.remove("sticky");
+  }
+}
+
+homeBtn.onclick = function () {
+  activeAbout.classList.remove("active");
+  activeProjects.classList.remove("active");
+  activeContact.classList.remove("active");
+  navCollapse.classList.remove("show");
 };
 
-homeBtn.onclick = function() {
-    activeAbout.classList.remove("active");
-    activeProjects.classList.remove("active");
-    activeContact.classList.remove("active");
-    navCollapse.classList.remove("show")
-}
+activeHome.onclick = function () {
+  activeAbout.classList.add("active");
+  h2.style.padding = "100px 0px 0px 0px";
+  navCollapse.classList.remove("show");
+};
 
-activeHome.onclick = function() {
-    activeAbout.classList.add("active");
-    h2.style.padding = "100px 0px 0px 0px";
-    navCollapse.classList.remove("show")
-}
+activeAbout.onclick = function () {
+  activeAbout.classList.add("active");
+  activeProjects.classList.remove("active");
+  activeContact.classList.remove("active");
+  h2.style.padding = "0px";
+  navCollapse.classList.remove("show");
+};
 
-activeAbout.onclick = function() {
-    activeAbout.classList.add("active");
-    activeProjects.classList.remove("active");
-    activeContact.classList.remove("active");
-    h2.style.padding = "0px";
-    navCollapse.classList.remove("show")
-}
+activeProjects.onclick = function () {
+  activeProjects.classList.add("active");
+  activeAbout.classList.remove("active");
+  activeContact.classList.remove("active");
+  h2.style.padding = "100px 0px 0px 0px";
+  navCollapse.classList.remove("show");
+};
 
-activeProjects.onclick = function() {
-    activeProjects.classList.add("active");
-    activeAbout.classList.remove("active");
-    activeContact.classList.remove("active");
-    h2.style.padding = "100px 0px 0px 0px";
-    navCollapse.classList.remove("show")
-}
-
-activeContact.onclick = function() {
-    activeContact.classList.add("active");
-    activeProjects.classList.remove("active");
-    activeAbout.classList.remove("active");
-    h2.style.padding = "100px 0px 0px 0px";
-    navCollapse.classList.remove("show")
-}
+activeContact.onclick = function () {
+  activeContact.classList.add("active");
+  activeProjects.classList.remove("active");
+  activeAbout.classList.remove("active");
+  h2.style.padding = "100px 0px 0px 0px";
+  navCollapse.classList.remove("show");
+};
