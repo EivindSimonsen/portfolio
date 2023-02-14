@@ -24,9 +24,9 @@
       <section class="home">
         <div class="home__intro">
           <h1>Hello!</h1>
-          <p>I'm known as <span>Eivind Simonsen</span></p>
-          <p>I'm a Junior Front-end dev</p>
-          <a class="cta active-home" href="#about">View my work</a>
+          <p class="home__intro--spacing">I'm <span>Eivind Simonsen</span>.</p>
+          <p class="home__intro--spacing button-spacing"><span>Front-end</span> web dev.</p>
+          <a class="cta active-home" href="#about">View my work <i class="fa-solid fa-arrow-down"></i></a>
         </div>
         <div class="home__snippet">
           <img src="./img/codesnippet.png" alt="" />
@@ -121,7 +121,7 @@
         </div>
         <!-- Skillset section -->
         <div class="section-heading extra-padding-about-h2">
-          <h2>Skillset</h2>
+          <h2 class="smaller-title">Skillset</h2>
         </div>
         <div class="skillset container row">
           <div data-aos="fade-up" class="skillset__container col-sm-12 col-md-6 col-lg-4">
@@ -152,6 +152,10 @@
             <h3>React</h3>
             <i class="fab fa-react"></i>
           </div>
+          <div data-aos="fade-up" class="skillset__container col-sm-12 col-md-6 col-lg-4">
+            <h3>SQL</h3>
+            <i class="fa-solid fa-database"></i>
+          </div>
         </div>
       </section>
       <!-- Project section -->
@@ -160,6 +164,16 @@
           <h2>Projects</h2>
         </div>
         <div class="projects__container container row"></div>
+      </section>
+      <!-- Certificates -->
+      <section class="projects">
+        <div class="section-heading">
+          <h2 class="smaller-title">Certificates</h2>
+        </div>
+        <div class="projects-container certificate">
+          <img src="./img/mimo-diplom-bilde.jpeg" alt="Certificate for web dev course" />
+          <img src="./img/sql-diplom.jpg" alt="Certificate for sql course" />
+        </div>
       </section>
       <!-- Contact section -->
       <section class="contact" id="contact">

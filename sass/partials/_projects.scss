@@ -9,6 +9,7 @@
 
 .projects__container {
   margin: 0px auto;
+  text-align: center;
 
   & > * {
     margin: 15px 0px;
@@ -26,8 +27,40 @@
     }
 
     @media (min-width: $desktop) {
+      text-align: left;
       width: 400px;
       height: 200px;
     }
+  }
+}
+
+.certificate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+  & img {
+    max-width: 300px;
+
+    @media (min-width: $desktop) {
+      transition: 1.5s;
+      @include shadow-elevation-medium();
+      cursor: zoom-in;
+
+      &:hover {
+        transform: scale(1.4);
+        transition: 1.5s;
+        @include shadow-elevation-high();
+      }
+    }
+
+    @media (min-width: 992px) {
+      max-width: 400px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    flex-direction: row;
   }
 }

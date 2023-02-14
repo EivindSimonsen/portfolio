@@ -1,5 +1,4 @@
 // About section
-
 .about {
   padding: 16px;
 
@@ -157,7 +156,7 @@
 }
 
 .skillset__container i {
-  font-size: 8rem;
+  font-size: 7rem;
 }
 
 .fa-html5,
@@ -166,6 +165,11 @@
 .fa-sass,
 .fa-bootstrap,
 .fa-wordpress,
-.fa-react {
+.fa-react,
+.fa-database {
   color: $primary-color;
+}
+
+.section-heading > .smaller-title {
+  font-size: 2rem;
 }
