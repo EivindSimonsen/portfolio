@@ -39,12 +39,21 @@ $desktop: 1400px;
   margin: 10px 0px;
   @include shadow-elevation-medium--cta();
   text-decoration: none;
-  transition: 0.15s;
+  transition: 0.15s ease-out;
 
   &:hover {
-    transition: 0.15s;
     color: $link-color;
     @include shadow-elevation-high--cta();
+    transition: 0.15s ease-out;
+
+    & i {
+      transform: translate(-50%, 4px);
+    }
+  }
+
+  & i {
+    transform: translateX(-50%);
+    transition: transform 0.3s ease-out;
   }
 
   &-github {
