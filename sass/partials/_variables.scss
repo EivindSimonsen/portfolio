@@ -20,7 +20,10 @@ $desktop: 1400px;
   box-shadow: 0.3px 0.5px 0.5px rgba(26, 53, 64, 0.5), 0.9px 1.8px 1.9px -0.5px rgba(26, 53, 64, 0.46), 1.8px 3.5px 3.7px -1.1px rgba(26, 53, 64, 0.42), 3.3px 6.7px 7px -1.6px rgba(26, 53, 64, 0.38), 6px 12px 12.6px -2.1px rgba(26, 53, 64, 0.34), 10.2px 20.4px 21.4px -2.7px rgba(26, 53, 64, 0.29), 16.4px 32.8px 34.4px -3.2px rgba(26, 53, 64, 0.25), 25px 50px 52.4px -3.7px rgba(26, 53, 64, 0.21);
 }
 
-// ------------ Box-shadows-call to actions ------------
+@mixin shadow-elevation-low {
+  box-shadow: 0.3px 0.5px 0.7px hsl(0deg 0% 63% / 0.34), 0.4px 0.8px 1px -1.2px hsl(0deg 0% 63% / 0.34), 1px 2px 2.5px -2.5px hsl(0deg 0% 63% / 0.34);
+}
+
 @mixin shadow-elevation-medium {
   box-shadow: 0.3px 0.5px 0.5px hsl(0deg 0% 63% / 0.54), 0.6px 1.2px 1.3px -1.2px hsl(0deg 0% 63% / 0.45), 1.9px 3.7px 3.9px -2.5px hsl(0deg 0% 63% / 0.36), 5px 10px 10.5px -3.7px hsl(0deg 0% 63% / 0.27);
 }
@@ -37,13 +40,13 @@ $desktop: 1400px;
   color: $link-color;
   font-size: 1.3rem;
   margin: 10px 0px;
-  @include shadow-elevation-medium--cta();
+  @include shadow-elevation-medium();
   text-decoration: none;
   transition: 0.15s ease-out;
 
   &:hover {
     color: $link-color;
-    @include shadow-elevation-high--cta();
+    @include shadow-elevation-high();
     transition: 0.15s ease-out;
 
     & i {
@@ -58,6 +61,16 @@ $desktop: 1400px;
 
   &-github {
     background-color: #22272e;
+    &:hover {
+      background-color: lighten($color: #22272e, $amount: 5);
+    }
+  }
+
+  &--hero {
+    @include shadow-elevation-medium--cta();
+    &:hover {
+      @include shadow-elevation-high--cta();
+    }
   }
 }
 

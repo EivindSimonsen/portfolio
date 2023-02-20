@@ -31,8 +31,8 @@ for (let i = 0; i < projects.length; i++) {
                   </div>
                   <div class="modal-body">${projects[i].content}</div>
                   <div class="modal-footer">
-                    <a class="nav-link cta ${link ? link : "missing"}" href="${projects[i].websiteLink}">Website</a>
-                    <a class="nav-link cta cta-github" href="${projects[i].githubLink}">GitHub</a>
+                    <a class="cta ${link ? link : "missing"}" href="${projects[i].websiteLink}">View site</a>
+                    <a class="cta cta-github" href="${projects[i].githubLink}">View code</a>
                   </div>
                 </div>
               </div>

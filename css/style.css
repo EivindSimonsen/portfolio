@@ -6,13 +6,13 @@
   color: #ffffff;
   font-size: 1.3rem;
   margin: 10px 0px;
-  box-shadow: 0.3px 0.5px 0.5px rgba(26, 53, 64, 0.54), 0.6px 1.2px 1.3px -1.2px rgba(26, 53, 64, 0.45), 1.9px 3.7px 3.9px -2.5px rgba(26, 53, 64, 0.36), 5px 10px 10.5px -3.7px rgba(26, 53, 64, 0.27);
+  box-shadow: 0.3px 0.5px 0.5px hsla(0deg, 0%, 63%, 0.54), 0.6px 1.2px 1.3px -1.2px hsla(0deg, 0%, 63%, 0.45), 1.9px 3.7px 3.9px -2.5px hsla(0deg, 0%, 63%, 0.36), 5px 10px 10.5px -3.7px hsla(0deg, 0%, 63%, 0.27);
   text-decoration: none;
   transition: 0.15s ease-out;
 }
 .cta:hover {
   color: #ffffff;
-  box-shadow: 0.3px 0.5px 0.5px rgba(26, 53, 64, 0.5), 0.9px 1.8px 1.9px -0.5px rgba(26, 53, 64, 0.46), 1.8px 3.5px 3.7px -1.1px rgba(26, 53, 64, 0.42), 3.3px 6.7px 7px -1.6px rgba(26, 53, 64, 0.38), 6px 12px 12.6px -2.1px rgba(26, 53, 64, 0.34), 10.2px 20.4px 21.4px -2.7px rgba(26, 53, 64, 0.29), 16.4px 32.8px 34.4px -3.2px rgba(26, 53, 64, 0.25), 25px 50px 52.4px -3.7px rgba(26, 53, 64, 0.21);
+  box-shadow: 0.3px 0.5px 0.5px hsla(0deg, 0%, 63%, 0.5), 0.9px 1.8px 1.9px -0.5px hsla(0deg, 0%, 63%, 0.46), 1.8px 3.5px 3.7px -1.1px hsla(0deg, 0%, 63%, 0.42), 3.3px 6.7px 7px -1.6px hsla(0deg, 0%, 63%, 0.38), 6px 12px 12.6px -2.1px hsla(0deg, 0%, 63%, 0.34), 10.2px 20.4px 21.4px -2.7px hsla(0deg, 0%, 63%, 0.29), 16.4px 32.8px 34.4px -3.2px hsla(0deg, 0%, 63%, 0.25), 25px 50px 52.4px -3.7px hsla(0deg, 0%, 63%, 0.21);
   transition: 0.15s ease-out;
 }
 .cta:hover i {
@@ -24,6 +24,15 @@
 }
 .cta-github {
   background-color: #22272e;
+}
+.cta-github:hover {
+  background-color: #2d333d;
+}
+.cta--hero {
+  box-shadow: 0.3px 0.5px 0.5px rgba(26, 53, 64, 0.54), 0.6px 1.2px 1.3px -1.2px rgba(26, 53, 64, 0.45), 1.9px 3.7px 3.9px -2.5px rgba(26, 53, 64, 0.36), 5px 10px 10.5px -3.7px rgba(26, 53, 64, 0.27);
+}
+.cta--hero:hover {
+  box-shadow: 0.3px 0.5px 0.5px rgba(26, 53, 64, 0.5), 0.9px 1.8px 1.9px -0.5px rgba(26, 53, 64, 0.46), 1.8px 3.5px 3.7px -1.1px rgba(26, 53, 64, 0.42), 3.3px 6.7px 7px -1.6px rgba(26, 53, 64, 0.38), 6px 12px 12.6px -2.1px rgba(26, 53, 64, 0.34), 10.2px 20.4px 21.4px -2.7px rgba(26, 53, 64, 0.29), 16.4px 32.8px 34.4px -3.2px rgba(26, 53, 64, 0.25), 25px 50px 52.4px -3.7px rgba(26, 53, 64, 0.21);
 }
 
 .fa-arrow-down {
@@ -42,6 +51,10 @@ body,
 html {
   font-family: "Roboto", sans-serif;
   scroll-behavior: smooth;
+}
+
+body > a:focus.nav-link {
+  color: red;
 }
 
 h1,
@@ -553,6 +566,9 @@ label {
   padding: 0px;
 }
 
+.modal-content {
+  overflow: hidden;
+}
 .modal-content img {
   width: 100%;
   height: inherit;
@@ -563,9 +579,10 @@ label {
   justify-content: space-evenly;
 }
 .modal-footer .cta {
-  padding: 5px 20px;
+  padding: 12px 20px;
 }
 
 .modal-body {
   line-height: 2;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */

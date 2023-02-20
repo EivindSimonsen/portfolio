@@ -3,9 +3,13 @@
   padding: 0px;
 }
 
-.modal-content img {
-  width: 100%;
-  height: inherit;
+.modal-content {
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: inherit;
+  }
 }
 
 .modal-footer {
@@ -13,7 +17,7 @@
   justify-content: space-evenly;
 
   & .cta {
-    padding: 5px 20px;
+    padding: 12px 20px;
   }
 }
 
