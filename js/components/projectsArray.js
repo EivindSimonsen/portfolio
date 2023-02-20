@@ -1,5 +1,13 @@
 export const projects = [
   {
+    name: "Url shortening app",
+    content: "This website lets you shorten whatever link to a short and consize state. It takes use of the https://shrtco.de/ api, and stores the values retrived by making a get request with the link pasted in, which can be copied directly to the clipboard. Design was provided by Frontend Mentor",
+    image: "../../img/url-shortener.JPG",
+    modalNr: "modal-eight",
+    websiteLink: "https://url-shortener-eas.netlify.app/",
+    githubLink: "https://github.com/eivindsimonsen/url-shortening-app-landing-page",
+  },
+  {
     name: "Advice generator app",
     content: "An easy and fast web app which gives daily advice. Advices are fetched from an API and the design is created with TailwindCSS",
     image: "../../img/adviceApp.JPG",
