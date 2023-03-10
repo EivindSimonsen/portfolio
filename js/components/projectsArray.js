@@ -4,8 +4,8 @@ export const projects = [
     content: "This todo app is my first try with creating a full CRUD app with the use of firebase SDK. It lets you add, update, and delete todos. The todos list is also preserved after refresh, because content is stored in firebases database. I will work on adding a login authentication system, so that only logged in users can add todos.",
     image: "../../img/screenshot-todo.JPG",
     modalNr: "modal-nine",
-    websiteLink: "https://eas-todos-app.netlify.app/",
-    githubLink: "https://github.com/eivindsimonsen/eas-todos",
+    websiteLink: "",
+    githubLink: "https://github.com/eivindsimonsen/todo-app",
   },
   {
     name: "Url shortening app",
