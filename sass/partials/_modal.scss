@@ -25,3 +25,15 @@
   line-height: 2;
   text-align: left;
 }
+
+.modal-icons {
+  display: flex;
+  gap: 10px;
+  margin-left: 10px;
+  align-items: center;
+  color: $primary-color;
+
+  & i {
+    font-size: 1.8rem;
+  }
+}
