@@ -27,6 +27,7 @@ for (let i = 0; i < projects.length; i++) {
                   <img src="${projects[i].image}" alt="${projects[i].name}" />
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">${projects[i].name}</h5>
+                    <div class="modal-icons">${projects[i].icons}</div>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">${projects[i].content}</div>

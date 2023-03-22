@@ -1,11 +1,21 @@
 export const projects = [
   {
+    name: "Multi step form",
+    content: "This app uses react state + custom hook as its backbone. It features four different forms which are all intertwined as a carousel. All fields have validation (except the add ons form). When the full form is filled, a summary of all your inputs is displayed. If submitted, the form data is sent to a firebase database for storage.",
+    image: "../../img/multistepform.JPG",
+    modalNr: "modal-ten",
+    websiteLink: "https://eas-multi-step-form.netlify.app/",
+    githubLink: "https://github.com/eivindsimonsen/multi-step-form",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-solid fa-database"></i>'],
+  },
+  {
     name: "Todo app",
     content: "This todo app is my first try with creating a full CRUD app with the use of firebase SDK. It lets you add, update, and delete todos. The todos list is also preserved after refresh, because content is stored in firebases database. I will work on adding a login authentication system, so that only logged in users can add todos.",
     image: "../../img/screenshot-todo.JPG",
     modalNr: "modal-nine",
     websiteLink: "https://eas-todos-app.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/todo-app",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-solid fa-database"></i>'],
   },
   {
     name: "Url shortening app",
@@ -14,6 +24,7 @@ export const projects = [
     modalNr: "modal-eight",
     websiteLink: "https://url-shortener-eas.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/url-shortening-app-landing-page",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i> API'],
   },
   {
     name: "Advice generator app",
@@ -22,6 +33,7 @@ export const projects = [
     modalNr: "modal-seven",
     websiteLink: "https://advice-generator-eas.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/advice-generator-app",
+    icons: ['<i class="fa-brands fa-react"></i> TailwindCSS, API'],
   },
   {
     name: "Blogr landing page",
@@ -30,6 +42,7 @@ export const projects = [
     modalNr: "modal-six",
     websiteLink: "https://blogr-eas.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/blogr-landing-page",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
   },
   {
     name: "React E-commerce website",
@@ -38,6 +51,7 @@ export const projects = [
     modalNr: "modal-five",
     websiteLink: "https://react-ecommerce-eas.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/react-ecommerce",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
   },
   {
     name: "Personalforeningen i Coop Øst",
@@ -46,14 +60,16 @@ export const projects = [
     modalNr: "modal-four",
     websiteLink: "https://personalforeningen.com/",
     githubLink: "https://github.com/emiost/personal",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-brands fa-wordpress"></i>'],
   },
   {
-    name: "Holidaze - Accommodation booking site",
+    name: "Holidaze - Hotel booking site",
     content: "This was my final exam, tasked in creating a booking website for accommodations in Bergen, Norway. This project includes a searchbar typeahead, fetching items from wordpress REST api, login possibility and contacting possibilites. This project is ment to represent my entire learing curve as a student at Noroff through the years.",
     image: "../../img/holidaze.JPG",
     modalNr: "modal-three",
     websiteLink: "https://holidazeeivindsimonsen.netlify.app/",
     githubLink: "https://github.com/Noroff-FEU-Assignments/project-exam-2-eivindsimonsen",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-brands fa-wordpress"></i>'],
   },
   {
     name: "Discord landing-page clone",
@@ -62,13 +78,15 @@ export const projects = [
     modalNr: "modal-two",
     websiteLink: "",
     githubLink: "https://github.com/eivindsimonsen/discord-clone",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
   },
   {
-    name: "Guitar Kings - E-commerce website of guitars",
+    name: "Guitar Kings",
     content: "This project was my first complete website. It only takes use of HTML and CSS, and was only meant for taking those languages into practice.",
     image: "../../img/guitarkings.JPG",
     modalNr: "modal-one",
     websiteLink: "https://silly-golick-a22c03.netlify.app/",
     githubLink: "https://github.com/EivindSimonsen/guitarkings",
+    icons: ['<i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-square-js"></i>'],
   },
 ];
