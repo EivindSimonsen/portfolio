@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: "Messaging App",
+    content: "Messaging app which takes use of Firebase DB for CRUD operations. Also including login auth which is neccesary for posting a comment. Posts are viewed based on amount of likes.",
+    image: "../../img/message.jpg",
+    modalNr: "modal-eleven",
+    websiteLink: "https://eas-messaging.netlify.app/",
+    githubLink: "https://github.com/eivindsimonsen/messaging-app",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-solid fa-database"></i> TypeScript'],
+  },
+  {
     name: "Multi step form",
     content: "This app uses react state + custom hook as its backbone. It features four different forms which are all intertwined as a carousel. All fields have validation (except the add ons form). When the full form is filled, a summary of all your inputs is displayed. If submitted, the form data is sent to a firebase database for storage.",
     image: "../../img/multistepform.JPG",
