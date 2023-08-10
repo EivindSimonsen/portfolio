@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: "Gamehub Remastered",
+    content: "Video game e-commerce platform, which features authentication functionality, and fetching items/reviews from firebase's firestore database. Project was intended to include stripe payments, but I lack VAT number for the process.",
+    image: "../../img/gamehub1.JPG",
+    modalNr: "modal-twelve",
+    websiteLink: "https://gorgeous-melomakarona-d5abd6.netlify.app/",
+    githubLink: "https://github.com/eivindsimonsen/gamehub-REMASTERED",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-solid fa-database"></i>'],
+  },
+  {
     name: "Messaging App",
     content: "Messaging app which takes use of Firebase DB for CRUD operations. Also including login auth which is neccesary for posting a comment. Posts are viewed based on amount of likes.",
     image: "../../img/message.jpg",
