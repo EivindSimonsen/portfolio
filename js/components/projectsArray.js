@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: "Interactive cards",
+    content: "A form based payment page with interactive cards, where card values are updated real-time as the user fills out the form.",
+    image: "../../img/interactive-card.jpg",
+    modalNr: "modal-thirteen",
+    websiteLink: "https://eas-interactive-card.netlify.app/",
+    githubLink: "https://github.com/eivindsimonsen/interactive-card",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
+  },
+  {
     name: "Gamehub Remastered",
     content: "Video game e-commerce platform, which features authentication functionality, and fetching items/reviews from firebase's firestore database. Project also include full payment system using stripe.",
     image: "../../img/gamehub1.JPG",
