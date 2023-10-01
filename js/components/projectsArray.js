@@ -53,7 +53,7 @@ export const projects = [
     githubLink: "https://github.com/eivindsimonsen/url-shortening-app-landing-page",
     icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i> API'],
   },
-  {
+  /* {
     name: "Advice generator app",
     content: "An easy and fast web app which gives daily advice. Advices are fetched from an API and the design is created with TailwindCSS",
     image: "../../img/adviceApp.JPG",
@@ -61,8 +61,8 @@ export const projects = [
     websiteLink: "https://advice-generator-eas.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/advice-generator-app",
     icons: ['<i class="fa-brands fa-react"></i> TailwindCSS, API'],
-  },
-  {
+  }, */
+  /* {
     name: "Blogr landing page",
     content: "First time trying vite + react for designing a website for bloggers. The challenge is offered by Frontend Mentor, and is not for real use. The task is to create the design in code as close as possible. Project was coded in Vite + React",
     image: "../../img/blogr.JPG",
@@ -70,7 +70,7 @@ export const projects = [
     websiteLink: "https://blogr-eas.netlify.app/",
     githubLink: "https://github.com/eivindsimonsen/blogr-landing-page",
     icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
-  },
+  }, */
   {
     name: "React E-commerce website",
     content: "This project was made in my freetime to develop my skills in React further. It features state management from several components to store and send shopping cart data. It also features a gallery with a modal functionality. Styles was made with SASS.",
@@ -89,7 +89,7 @@ export const projects = [
     githubLink: "https://github.com/emiost/personal",
     icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-brands fa-wordpress"></i>'],
   },
-  {
+  /*  {
     name: "Holidaze - Hotel booking site",
     content: "This was my final exam, tasked in creating a booking website for accommodations in Bergen, Norway. This project includes a searchbar typeahead, fetching items from wordpress REST api, login possibility and contacting possibilites. This project is ment to represent my entire learing curve as a student at Noroff through the years.",
     image: "../../img/holidaze.JPG",
@@ -97,7 +97,7 @@ export const projects = [
     websiteLink: "https://holidazeeivindsimonsen.netlify.app/",
     githubLink: "https://github.com/Noroff-FEU-Assignments/project-exam-2-eivindsimonsen",
     icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i><i class="fa-brands fa-wordpress"></i>'],
-  },
+  }, */
   {
     name: "Discord landing-page clone",
     content: "This project was for practicing my react skills with use of components and stylings. My goal was to design the home page of the discord website without getting help from inspecting their code.",
@@ -107,7 +107,7 @@ export const projects = [
     githubLink: "https://github.com/eivindsimonsen/discord-clone",
     icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
   },
-  {
+  /* {
     name: "Guitar Kings",
     content: "This project was my first complete website. It only takes use of HTML and CSS, and was only meant for taking those languages into practice.",
     image: "../../img/guitarkings.JPG",
@@ -115,5 +115,5 @@ export const projects = [
     websiteLink: "https://silly-golick-a22c03.netlify.app/",
     githubLink: "https://github.com/EivindSimonsen/guitarkings",
     icons: ['<i class="fa-brands fa-html5"></i><i class="fa-brands fa-css3-alt"></i><i class="fa-brands fa-square-js"></i>'],
-  },
+  }, */
 ];

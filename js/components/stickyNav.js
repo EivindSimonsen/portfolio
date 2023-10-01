@@ -25,7 +25,7 @@ homeBtn.onclick = function () {
 };
 
 activeHome.onclick = function () {
-  activeAbout.classList.add("active");
+  activeProjects.classList.add("active");
   h2.style.padding = "100px 0px 0px 0px";
   navCollapse.classList.remove("show");
 };
