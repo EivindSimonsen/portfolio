@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: "World Countries",
+    content: "This app displays all the worlds countries, and provides details about every specific one. It features a searchbar, where you can search for a country, and also region specific data fetching.",
+    image: "../../img/world-countries.jpg",
+    modalNr: "modal-fourtheen",
+    websiteLink: "https://eas-world-countries.netlify.app/",
+    githubLink: "https://github.com/eivindsimonsen/world-countries",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-sass"></i>'],
+  },
+  {
     name: "Interactive cards",
     content: "A form based payment page with interactive cards, where card values are updated real-time as the user fills out the form.",
     image: "../../img/interactive-card.jpg",
