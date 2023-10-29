@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "> This portfolio displays all my worthy projects created by myself, also includes detailed information about who I am.\r > Live site [_here_](https://www.easimonsen.com). <!-- If you have the project hosted somewhere, include the link here. -->",
   "main": "index.js",
-  "dependencies": {
-    "firebase": "^10.5.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
