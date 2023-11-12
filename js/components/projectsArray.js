@@ -1,5 +1,14 @@
 export const projects = [
   {
+    name: "Tip calculator",
+    content: "Ever wondered how much you should tip? Look no further as the Tip calculator app provides the numbers. Just pass in the details, and the app takes care of the rest.",
+    image: "../../img/tip.jpg",
+    modalNr: "modal-fiftheen",
+    websiteLink: "https://eas-tip-calculator.netlify.app/",
+    githubLink: "https://github.com/eivindsimonsen/tip-calculator-app",
+    icons: ['<i class="fa-brands fa-react"></i><i class="fa-brands fa-css"></i>'],
+  },
+  {
     name: "World Countries",
     content: "This app displays all the worlds countries, and provides details about every specific one. It features a searchbar, where you can search for a country, and also region specific data fetching.",
     image: "../../img/world-countries.jpg",
