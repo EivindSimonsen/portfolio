@@ -407,7 +407,8 @@ header h1, header p {
 .fa-bootstrap,
 .fa-wordpress,
 .fa-react,
-.fa-database {
+.fa-database,
+.fa-vuejs {
   color: rgb(0, 152, 155);
 }
 
